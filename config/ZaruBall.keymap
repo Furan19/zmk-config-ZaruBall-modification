@@ -108,7 +108,7 @@
             label = "MKP_EXIT_AML";
         };
 
-        pas {
+        pas: pas {
             compatible = "zmk,behavior-macro-one-param";
             #binding-cells = <1>;
             bindings = <
@@ -117,7 +117,7 @@
             label = "pas";
         };
 
-        Tpas {
+        Tpas: Tpas {
             compatible = "zmk,behavior-macro-one-param";
             #binding-cells = <1>;
             bindings = <
