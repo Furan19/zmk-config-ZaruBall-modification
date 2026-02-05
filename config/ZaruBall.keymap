@@ -91,7 +91,7 @@
             label = "TO_layer_0";
         };
 
-        // When LCLK pressed, exit AML (after 250ms cause by sticky layer
+        // When LCLK pressed, exit AML (after 250ms cause by sticky layer)
 
         mkp_exit_AML: mkp_exit_AML {
             compatible = "zmk,behavior-macro-one-param";
@@ -112,7 +112,8 @@
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <
-                &kp LS(T)   &kp G &kp M &kp KP_N7   &kp KP_N3   &kp KP_N9   &kp KP_N5
+                &kp T   &kp G &kp M &kp KP_N7   &kp KP_N3   &kp KP_N9   &kp KP_N5
+                &kp KP_ENTER
             >;
             label = "pas";
         };
@@ -122,6 +123,7 @@
             #binding-cells = <0>;
             bindings = <
                 &kp LS(G)  &kp U &kp S &kp K &kp X &kp I &kp KP_N2 &kp KP_N7 &kp KP_N8  &kp KP_N5   &kp KP_N9
+                &kp KP_ENTER
             >;
             label = "Tpas";
         };
