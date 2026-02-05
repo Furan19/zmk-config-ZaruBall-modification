@@ -109,8 +109,8 @@
         };
 
         pas: pas {
-            compatible = "zmk,behavior-macro-one-param";
-            #binding-cells = <1>;
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
             bindings = <
                 &kp LS(T)   &kp G &kp M &kp KP_N7   &kp KP_N3   &kp KP_N9   &kp KP_N5
             >;
@@ -118,8 +118,8 @@
         };
 
         Tpas: Tpas {
-            compatible = "zmk,behavior-macro-one-param";
-            #binding-cells = <1>;
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
             bindings = <
                 &kp LS(G)  &kp U &kp S &kp K &kp X &kp I &kp KP_N2 &kp KP_N7 &kp KP_N8  &kp KP_N5   &kp KP_N9
             >;
