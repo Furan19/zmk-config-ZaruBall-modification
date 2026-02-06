@@ -17,7 +17,7 @@
 #define RAISE    3
 #define ADJUST   4
 #define SCROLL   2
-#define GAME     7
+#define GAME     5
 
 &trackball_listener {
     input-processors = <
