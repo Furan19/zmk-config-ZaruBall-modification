@@ -200,11 +200,11 @@
         game_layer {
             display-name = "Game";
             bindings = <
-&kp ESC    &kp N1      &kp N2  &kp N3        &kp N4   &kp N5                 &kp KP_N7     &kp KP_N8  &kp KP_N9   &kp KP_DIVIDE                     &kp N6     &kp N7    &kp N8    &kp N9    &kp N0    &kp EQUAL
-&kp GRAVE  &kp Q       &kp W   &kp E         &kp R    &kp T                  &kp KP_N4     &kp KP_N5  &kp KP_N6   &kp KP_MULTIPLY                   &kp N1     &kp N2    &kp N3    &kp N4    &kp N5    &kp MINUS
-&kp TAB    &kp A       &kp S   &kp D         &kp F    &kp G      &kp HOME    &kp KP_N1     &kp KP_N2  &kp KP_N3   &kp KP_MINUS       &kp LBKT       &kp H      &mkp MB1  &mkp MB3  &mkp MB2  &kp SEMI  &kp SQT
-&kp LSHFT  &kp Z       &kp X   &kp C         &kp V    &kp B      &kp END     &kp KP_ENTER  &kp KP_N0  &kp KP_DOT  &kp KP_PLUS        &kp RBKT       &kp N      &mkp MB4  &mkp MB5  &kp DOT   &kp FSLH  &none
-&kp LCTRL  &kp C_MUTE          &kp LEFT_ALT  &kp F    &kp SPACE  &mo FN                                                              &kp BACKSPACE  &kp ENTER                                          &to 0
+&kp ESC    &kp N1      &kp N2  &kp N3        &kp N4       &kp N5             &kp KP_N7     &kp KP_N8  &kp KP_N9   &kp KP_DIVIDE                     &kp N6     &kp N7    &kp N8    &kp N9    &kp N0    &kp EQUAL
+&kp GRAVE  &kp Q       &kp W   &kp E         &kp R        &kp T              &kp KP_N4     &kp KP_N5  &kp KP_N6   &kp KP_MULTIPLY                   &kp N1     &kp N2    &kp N3    &kp N4    &kp N5    &kp MINUS
+&kp TAB    &kp A       &kp S   &kp D         &kp F        &kp G  &kp HOME    &kp KP_N1     &kp KP_N2  &kp KP_N3   &kp KP_MINUS       &kp LBKT       &kp H      &mkp MB1  &mkp MB3  &mkp MB2  &kp SEMI  &kp SQT
+&kp LSHFT  &kp Z       &kp X   &kp C         &kp V        &kp B  &kp END     &kp KP_ENTER  &kp KP_N0  &kp KP_DOT  &kp KP_PLUS        &kp RBKT       &kp N      &mkp M    &mkp J    &kp DOT   &kp FSLH  &none
+&kp LCTRL  &kp C_MUTE          &kp LEFT_ALT  &kp SPACE    &kp F  &mo FN                                                              &kp BACKSPACE  &kp ENTER                                          &to 0
             >;
 
             sensor-bindings = <&scroll_down_up>;
@@ -213,11 +213,11 @@
         fn_layer {
             display-name = "Fn";
             bindings = <
-&kp ESC    &kp N1      &kp N2  &kp N3        &kp N4   &kp N5                 &kp KP_N7     &kp KP_N8  &kp KP_N9   &kp KP_DIVIDE                     &kp N6     &kp F10  &kp F11  &kp F12  &kp N0     &kp EQUAL
-&kp GRAVE  &kp Q       &kp W   &kp E         &kp R    &kp T                  &kp KP_N4     &kp KP_N5  &kp KP_N6   &kp KP_MULTIPLY                   &kp N1     &kp F7   &kp F8   &kp F9   &kp N5     &kp MINUS
-&kp TAB    &kp A       &kp S   &kp D         &kp F    &kp G      &kp HOME    &kp KP_N1     &kp KP_N2  &kp KP_N3   &kp KP_MINUS       &kp LBKT       &kp H      &kp F4   &kp F5   &kp F6   &kp PG_UP  &kp SQT
-&kp LSHFT  &kp Z       &kp X   &kp C         &kp V    &kp B      &kp END     &kp KP_ENTER  &kp KP_N0  &kp KP_DOT  &kp KP_PLUS        &kp RBKT       &kp N      &kp F1   &kp F2   &kp F3   &kp PG_DN  &none
-&kp LCTRL  &kp C_MUTE          &kp LEFT_ALT  &kp F    &kp SPACE  &trans                                                              &kp BACKSPACE  &kp ENTER                                        &to 0
+&kp ESC    &kp N1      &kp N2  &kp N3        &kp N4       &kp N5             &kp KP_N7     &kp KP_N8  &kp KP_N9   &kp KP_DIVIDE                     &kp N6     &kp F10  &kp F11  &kp F12  &kp N0     &kp EQUAL
+&kp GRAVE  &kp Q       &kp W   &kp E         &kp R        &kp T              &kp KP_N4     &kp KP_N5  &kp KP_N6   &kp KP_MULTIPLY                   &kp N1     &kp F7   &kp F8   &kp F9   &kp N5     &kp MINUS
+&kp TAB    &kp A       &kp S   &kp D         &kp F        &kp G  &kp HOME    &kp KP_N1     &kp KP_N2  &kp KP_N3   &kp KP_MINUS       &kp LBKT       &kp H      &kp F4   &kp F5   &kp F6   &kp PG_UP  &kp SQT
+&kp LSHFT  &kp Z       &kp X   &kp C         &kp V        &kp B  &kp END     &kp KP_ENTER  &kp KP_N0  &kp KP_DOT  &kp KP_PLUS        &kp RBKT       &kp N      &kp F1   &kp F2   &kp F3   &kp PG_DN  &none
+&kp LCTRL  &kp C_MUTE          &kp LEFT_ALT  &kp SPACE    &kp F  &trans                                                              &kp BACKSPACE  &kp ENTER                                        &to 0
             >;
 
             sensor-bindings = <&scroll_down_up>;
